@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b140ce9c-ca8d-4434-9d52-f33b08694b7b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client/my-app" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JztWDjwPdVwtZIknwSjEK7pkBL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Temporary\codeForNoSQL\server" />
+      <recent name="C:\Temporary\codeForNoSQL\client\my-app" />
+      <recent name="C:\Temporary\codeForNoSQL" />
+      <recent name="C:\Temporary\codeForNoSQL\models" />
+      <recent name="C:\Temporary\codeForNoSQL\user" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b140ce9c-ca8d-4434-9d52-f33b08694b7b" name="Changes" comment="" />
+      <created>1673092769032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673092769032</updated>
+      <workItem from="1673092770215" duration="2249000" />
+      <workItem from="1673163701960" duration="217000" />
+      <workItem from="1673211274633" duration="3606000" />
+      <workItem from="1673214927301" duration="1951000" />
+      <workItem from="1673217318368" duration="406000" />
+      <workItem from="1673217752081" duration="29000" />
+      <workItem from="1675839275576" duration="62000" />
+      <workItem from="1676661976007" duration="19000" />
+      <workItem from="1676662020688" duration="3117000" />
+      <workItem from="1677098254235" duration="2461000" />
+      <workItem from="1677100772058" duration="8651000" />
+      <workItem from="1677109982920" duration="3922000" />
+      <workItem from="1677117215523" duration="291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
