@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 	<head>
+ 		<!-- Meta Tags -->
+		<meta charset="UTF-8">
+		<meta name="author" content="Kamran Mubarik">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Title -->
+ 		<title>E-Commerce Online Shop</title>
+ 		<!-- Style Sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<!-- Javascript -->	
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  		<script>		   
+		    $( function() {
+			    $( "#slider-range" ).slider({
+			      range: true,
+			      min: 0,
+			      max: 10000,
+			      values: [ 1000, 3000 ],
+			      slide: function( event, ui ) {
+			        $( "#amount" ).val( "Rs." + ui.values[ 0 ] + " - Rs." + ui.values[ 1 ] );
+			      }
+			    });
+			    $( "#amount" ).val( "Rs." + $( "#slider-range" ).slider( "values", 0 ) +
+			      " - Rs." + $( "#slider-range" ).slider( "values", 1 ) );
+			});
+		 </script>
+ 	</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="brand">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/icons/electronics2.png">
+						<div class="logo-text">
+							<p class="big-logo">Modern</p>
+							<p class="small-logo">Technology</p>
+						</div>
+					</a>
+				</div> <!-- logo -->
+				<div class="shop-icon">
+					<div class="dropdown">
+						<img src="img/icons/account.png">
+						<div class="dropdown-menu">
+							<ul>
+								<li><a href="account.html">Register</a></li>
+								<li><a href="login.html">Log In</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="dropdown">
+						<img src="img/icons/heart.png">
+						<div class="dropdown-menu wishlist-item">
+							<table border="1">
+								<thead>
+									<tr>
+										<th>Image</th>
+										<th>Product Name</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="img/product/img1.jpg"></td>
+										<td>product name</td>
+									</tr>
+									<tr>
+										<td><img src="img/product/img2.jpg"></td>
+										<td>product name</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="dropdown">
+						<img src="img/icons/shopping_cart.png">
+						<div class="dropdown-menu cart-item">
+							<table border="1">
+								<thead>
+									<tr>
+										<th>Image</th>
+										<th>Product Name</th>
+										<th class="center">Price</th>
+										<th class="center">Qty.</th>
+										<th class="center">Amount</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="img/product/img1.jpg"></td>
+										<td>product name</td>
+										<td class="center">1200</td>
+										<td class="center">2</td>
+										<td class="center">2400</td>
+									</tr>
+									<tr>
+										<td><img src="img/product/img2.jpg"></td>
+										<td>product name</td>
+										<td class="center">1500</td>
+										<td class="center">2</td>
+										<td class="center">3000</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div> <!-- shop icons -->
+			</div> <!-- brand -->
+
+			<div class="menu-bar">
+				<div class="menu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="shop.html">Shop</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</div>
+			</div> <!-- menu -->
+		</div> <!-- container -->
+	</header> <!-- header -->
+
+	<div class="container">
+		<main>
+			<div class="breadcrumb">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li> / </li>
+					<li>Shop</li>
+				</ul>
+			</div> <!-- End of Breadcrumb-->
+
+			<div class="new-product-section shop">
+				<div class="sidebar">
+					<div class="sidebar-widget">
+						<h3>Category</h3>
+						<ul>
+							<li><a href="">Air conditioners</a></li>
+							<li><a href="">Washing machines</a></li>
+							<li><a href="">Vacuum cleaners</a></li>
+							<li><a href="">Coffee machines</a></li>
+							<li><a href="">Refrigerators</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="product-content">
+					<div class="product">
+						<a href="product.html">
+							<img src="img/product/img1.jpg">
+						</a>
+						<div class="product-detail">
+							<h3>Air conditioners</h3>
+							<h2>SAMSUNG</h2>
+							<a href="#">Add to Cart</a>
+							<p>200.000 ₸</p>
+						</div>
+					</div>
+					<div class="product">
+						<a href="product.html">
+							<img src="img/product/img2.jpg">
+						</a>
+						<div class="product-detail">
+							<h3>Washing machines</h3>
+							<h2>HAIER</h2>
+							<a href="#">Add to Cart</a>
+							<p>249.990 ₸</p>
+						</div>
+					</div>
+					<div class="product">
+						<a href="product.html">
+							<img src="img/product/img3.jpg">
+						</a>
+						<div class="product-detail">
+							<h3>Air conditioners</h3>
+							<h2>LG</h2>
+							<a href="#">Add to Cart</a>
+							<p>439.990 ₸</p>
+						</div>
+					</div>
+					<div class="product">
+						<a href="product.html">
+							<img src="img/product/img4.jpg">
+						</a>
+						<div class="product-detail">
+							<h3>Vacuum cleaners</h3>
+							<h2>LG</h2>
+							<a href="#">Add to Cart</a>
+							<p>199.990 ₸</p>
+						</div>
+					</div>
+					<div class="product">
+						<a href="product.html">
+							<img src="img/product/img5.jpg">
+						</a>
+						<div class="product-detail">
+							<h3>Refrigerators</h3>
+							<h2>SAMSUNG</h2>
+							<a href="#">Add to Cart</a>
+							<p>699.990 ₸</p>
+						</div>
+					</div>
+					<div class="product">
+						<a href="product.html">
+							<img src="img/product/img6.jpg">
+						</a>
+						<div class="product-detail">
+							<h3>Coffee machines</h3>
+							<h2>De Longhi</h2>
+							<a href="#">Add to Cart</a>
+							<p>569.990 ₸</p>
+						</div>
+					</div>
+					<div class="product">
+						<a href="product.html">
+							<img src="img/product/img7.jpg">
+						</a>
+						<div class="product-detail">
+							<h3>Vacuum cleaners</h3>
+							<h2>LG</h2>
+							<a href="#">Add to Cart</a>
+							<p>399.990 ₸</p>
+						</div>
+					</div>
+					<div class="product">
+						<a href="product.html">
+							<img src="img/product/img8.jpg">
+						</a>
+						<div class="product-detail">
+							<h3>Washing machines</h3>
+							<h2>BEKO</h2>
+							<a href="#">Add to Cart</a>
+							<p>299.990 ₸</p>
+						</div>
+					</div>
+				</div>
+			</div> <!-- New Product Section -->
+			<div class="load-more">
+				<a href="#">Load More</a>
+			</div>		
+		</main> <!-- Main Area -->
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="footer-widget">
+				<div class="widget">
+					<div class="widget-heading">
+						<h3>Important Link</h3>
+					</div>
+					<div class="widget-content">
+						<ul>
+							<li><a href="about.html">About</a></li>
+							<li><a href="">Refund Policy</a></li>
+							<li><a href="">Terms & Conditions</a></li>
+							<li><a href="shop.html">Back to Top</a></li>
+						</ul>
+					</div>
+				</div>
+			</div> <!-- Footer Widget -->
+			<div class="footer-bar">
+				<div class="copyright-text">
+					<p>Copyright 2021 - All Rights Reserved</p>
+				</div>
+			</div> <!-- Footer Bar -->
+		</div>
+	</footer> <!-- Footer Area -->
+
+</body>
+
+</html>
